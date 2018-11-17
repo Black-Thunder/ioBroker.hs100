@@ -93,7 +93,7 @@ adapter.on('stateChange', function (id, state) {
                     });
 
 
-                    device.setLightState(options);
+                    device.lighting.setLightState(options);
 
                 }
             } else {
